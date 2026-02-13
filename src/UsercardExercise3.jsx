@@ -1,5 +1,5 @@
 
- const UsercardExercise4=({name,email})=>{
+ const UsercardExercise3=({name,email})=>{
     return(
         <div style={{paddingLeft:"20px"}}>
             <h2>{name}</h2>
@@ -8,4 +8,4 @@
     )
 }
 
-export default UsercardExercise4;
+export default UsercardExercise3;
