@@ -2,6 +2,7 @@ import Usercard from "./Usercard";
 import Blog from "./Blog";
 import UsercardExercise3 from "./UsercardExercise3";
 import ToggleExercise4 from "./toggleExercise4";
+import ShoppingCart from "./ShoppingCart";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <UsercardExercise3 name="Muse" email="muse@info..." />
       <UsercardExercise3 name="abdi" email="abdi@info..." /> */}
       <ToggleExercise4 />
+      <ShoppingCart />
     </>
   );
 }
