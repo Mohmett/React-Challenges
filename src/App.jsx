@@ -5,6 +5,7 @@ import ToggleExercise4 from "./toggleExercise4";
 import ShoppingCart from "./ShoppingCart";
 import Exercise6 from "./Exercise6";
 import Exercise7 from "./Exercise7MouseMove";
+import CountDown from "./CountDownExer8";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <ToggleExercise4 /> */}
       {/* <ShoppingCart /> */}
       {/* <Exercise6/> */}
-      <Exercise7/>
+      {/* <Exercise7/> */}
+      <CountDown></CountDown>
     </>
   );
 }
