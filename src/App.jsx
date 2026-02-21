@@ -7,6 +7,7 @@ import Exercise6 from "./Exercise6";
 import Exercise7 from "./Exercise7MouseMove";
 import CountDown from "./CountDownExer8";
 import GitHubUsers from "./GithubUsers";
+import UserList from "./userList";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       {/* <Exercise6/> */}
       {/* <Exercise7/> */}
       {/* <CountDown></CountDown> */}
-      <GitHubUsers></GitHubUsers>
+      {/* <GitHubUsers></GitHubUsers> */}
+      <UserList></UserList>
     </>
   );
 }
