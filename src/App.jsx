@@ -6,6 +6,7 @@ import ShoppingCart from "./ShoppingCart";
 import Exercise6 from "./Exercise6";
 import Exercise7 from "./Exercise7MouseMove";
 import CountDown from "./CountDownExer8";
+import GitHubUsers from "./GithubUsers";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <ShoppingCart /> */}
       {/* <Exercise6/> */}
       {/* <Exercise7/> */}
-      <CountDown></CountDown>
+      {/* <CountDown></CountDown> */}
+      <GitHubUsers></GitHubUsers>
     </>
   );
 }
