@@ -9,6 +9,7 @@ import CountDown from "./CountDownExer8";
 import GitHubUsers from "./GithubUsers";
 import UserList from "./userList";
 import LoginForm from "./LoginForm";
+import Counting from "./Counting";
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/* <CountDown></CountDown> */}
       {/* <GitHubUsers></GitHubUsers> */}
       {/* <UserList></UserList> */}
-      <LoginForm></LoginForm>
+      {/* <LoginForm></LoginForm> */}
+      <Counting></Counting>
     </>
   );
 }
