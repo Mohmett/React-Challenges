@@ -10,6 +10,7 @@ import GitHubUsers from "./GithubUsers";
 import UserList from "./userList";
 import LoginForm from "./LoginForm";
 import Counting from "./Counting";
+import Counter from "./Counter";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       {/* <UserList></UserList> */}
       {/* <LoginForm></LoginForm> */}
       <Counting></Counting>
+      <Counter></Counter>
     </>
   );
 }
