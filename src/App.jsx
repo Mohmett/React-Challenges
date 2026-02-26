@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Usercard from "./Usercard";
 import Blog from "./Blog";
 import UsercardExercise3 from "./UsercardExercise3";
@@ -11,8 +12,21 @@ import UserList from "./userList";
 import LoginForm from "./LoginForm";
 import Counting from "./Counting";
 import Counter from "./Counter";
+import LanguageContext from "./LanguageContext";
+import Language from "./Language";
 
 function App() {
+
+
+    const [language, setLanguage] = useState({ name: "en", word: "Welcome" });
+
+  const handdleTranslate = () => {
+    setLanguage({...language, 
+      name: language.name ==="en"? "som" : "en",
+      word:language.word === "Welcome" ? "Soo dhowow" : "Welcome",
+    });
+  };
+
   return (
     <>
       {/* <Usercard /> */}
@@ -29,8 +43,14 @@ function App() {
       {/* <GitHubUsers></GitHubUsers> */}
       {/* <UserList></UserList> */}
       {/* <LoginForm></LoginForm> */}
-      <Counting></Counting>
-      <Counter></Counter>
+      {/* <Counting></Counting> */}
+      {/* <Counter></Counter> */}
+            <LanguageContext.Provider value={language}>
+        <button onClick={handdleTranslate}>
+          Translate into {language.name === "en" ? "Somali" : "English"}
+        </button>
+        <Language></Language>
+      </LanguageContext.Provider>
     </>
   );
 }
