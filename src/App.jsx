@@ -12,9 +12,10 @@ import UserList from "./userList";
 import LoginForm from "./LoginForm";
 import Counting from "./Counting";
 import Counter from "./Counter";
-// import LanguageContext from "./LanguageContext";
-// import Language from "./Language";
+import LanguageContext from "./LanguageContext";
+import Language from "./Language";
 import { ContactApp } from './Contact App/ContactApp'
+import TodoApp from "./TodoApp";
 
 
 function App() {
@@ -53,7 +54,8 @@ function App() {
         </button>
         <Language></Language>
       </LanguageContext.Provider> */}
-      <ContactApp></ContactApp>
+      {/* <ContactApp></ContactApp> */}
+      <TodoApp></TodoApp>
 
 
 
