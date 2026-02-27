@@ -12,8 +12,10 @@ import UserList from "./userList";
 import LoginForm from "./LoginForm";
 import Counting from "./Counting";
 import Counter from "./Counter";
-import LanguageContext from "./LanguageContext";
-import Language from "./Language";
+// import LanguageContext from "./LanguageContext";
+// import Language from "./Language";
+import { ContactApp } from './Contact App/ContactApp'
+
 
 function App() {
 
@@ -45,12 +47,16 @@ function App() {
       {/* <LoginForm></LoginForm> */}
       {/* <Counting></Counting> */}
       {/* <Counter></Counter> */}
-            <LanguageContext.Provider value={language}>
+            {/* <LanguageContext.Provider value={language}>
         <button onClick={handdleTranslate}>
           Translate into {language.name === "en" ? "Somali" : "English"}
         </button>
         <Language></Language>
-      </LanguageContext.Provider>
+      </LanguageContext.Provider> */}
+      <ContactApp></ContactApp>
+
+
+
     </>
   );
 }
