@@ -16,6 +16,7 @@ import LanguageContext from "./LanguageContext";
 import Language from "./Language";
 import { ContactApp } from './Contact App/ContactApp'
 import TodoApp from "./TodoApp";
+import TodoAppwithTailwind from "./TodoAppwithTailwind"
 
 
 function App() {
@@ -55,7 +56,8 @@ function App() {
         <Language></Language>
       </LanguageContext.Provider> */}
       {/* <ContactApp></ContactApp> */}
-      <TodoApp></TodoApp>
+      {/* <TodoApp></TodoApp> */}
+      <TodoAppwithTailwind></TodoAppwithTailwind>
 
 
 
