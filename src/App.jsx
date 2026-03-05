@@ -18,6 +18,7 @@ import { ContactApp } from './Contact App/ContactApp'
 import TodoApp from "./TodoApp";
 import TodoAppwithTailwind from "./TodoAppwithTailwind"
 import Dashboard from "./Dashboard/Dashboard";
+import FormExercise from "./FormExercise";
 
 
 function App() {
@@ -59,7 +60,8 @@ function App() {
       {/* <ContactApp></ContactApp> */}
       {/* <TodoApp></TodoApp> */}
       {/* <TodoAppwithTailwind></TodoAppwithTailwind> */}
-      <Dashboard></Dashboard>
+      {/* <Dashboard></Dashboard> */}
+      <FormExercise></FormExercise>
 
 
 
